@@ -19,42 +19,40 @@
   <body>
     <!-- Header -->
     <header class="page-header">
-      <div class="header-line">
-        <div class="container">
-          <!-- Navigation -->
-          <nav class="main-nav">
-            <a class="logo" href="./index.html">Web<span class="logo-dark-part">Studio</span></a>
-            <ul class="main-nav-list">
-              <li class="main-nav-list-item">
-                <a class="color-accent" href="./index.html">Студия</a>
-              </li>
-              <li class="main-nav-list-item">
-                <a class="color-accent current" href="./portfolio.html">Портфолио</a>
-              </li>
-              <li class="main-nav-list-item"><a class="color-accent" href="#">Контакты</a></li>
-            </ul>
-          </nav>
-
-          <!-- Contact Information -->
-          <ul class="contacts-list">
-            <li class="contacts-list-item">
-              <a class="color-accent" href="mailto:info@devstudio.com">
-                <svg class="envelope" width="16" height="12">
-                  <use href="./images/icons.svg#envelope"></use>
-                </svg>
-                info@devstudio.com
-              </a>
+      <div class="container">
+        <!-- Navigation -->
+        <nav class="main-nav">
+          <a class="logo" href="./index.html">Web<span class="logo-dark-part">Studio</span></a>
+          <ul class="main-nav-list header-list">
+            <li class="main-nav-list-item">
+              <a class="link" href="./index.html">Студия</a>
             </li>
-            <li class="contacts-list-item">
-              <a class="color-accent" href="tel:+380961111111"
-                ><svg class="smartphone" width="10" height="16">
-                  <use href="./images/icons.svg#smartphone"></use>
-                </svg>
-                +38 096 111 11 11</a
-              >
+            <li class="main-nav-list-item">
+              <a class="link current" href="./portfolio.html">Портфолио</a>
             </li>
+            <li class="main-nav-list-item"><a class="link" href="#">Контакты</a></li>
           </ul>
-        </div>
+        </nav>
+
+        <!-- Contact Information -->
+        <ul class="contacts-list header-list">
+          <li class="contacts-list-item">
+            <a class="link" href="mailto:info@devstudio.com">
+              <svg class="envelope" width="16" height="12">
+                <use href="./images/icons.svg#envelope"></use>
+              </svg>
+              info@devstudio.com
+            </a>
+          </li>
+          <li class="contacts-list-item">
+            <a class="link" href="tel:+380961111111">
+              <svg class="smartphone" width="10" height="16">
+                <use href="./images/icons.svg#smartphone"></use>
+              </svg>
+              +38 096 111 11 11
+            </a>
+          </li>
+        </ul>
       </div>
     </header>
 
@@ -66,15 +64,15 @@
 
           <!-- Tabs -->
           <ul class="portfolio-tabs-list">
-            <li class="portfolio-tabs-item"><button type="button">Все</button></li>
-            <li class="portfolio-tabs-item">
+            <li class="portfolio-tabs-list-item"><button type="button">Все</button></li>
+            <li class="portfolio-tabs-list-item">
               <button type="button">Веб-сайты</button>
             </li>
-            <li class="portfolio-tabs-item">
+            <li class="portfolio-tabs-list-item">
               <button type="button">Приложения</button>
             </li>
-            <li class="portfolio-tabs-item"><button type="button">Дизайн</button></li>
-            <li class="portfolio-tabs-item">
+            <li class="portfolio-tabs-list-item"><button type="button">Дизайн</button></li>
+            <li class="portfolio-tabs-list-item">
               <button type="button">Маркетинг</button>
             </li>
           </ul>
@@ -83,127 +81,208 @@
           <ul class="projects-list">
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/technoquack.jpg"
-                  alt="Веб-сайт проекта Технокряк"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Технокряк</h2>
-                  <p class="item-descr">Веб-сайт</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/technoquack.jpg"
+                    alt="Веб-сайт проекта Технокряк"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Технокряк</h2>
+                  <p class="projects-list-item-descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/football.jpg"
-                  alt="Постер футбольных команд"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Постер New Orlean vs Golden Star</h2>
-                  <p class="item-descr">Дизайн</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/football.jpg"
+                    alt="Постер футбольных команд"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Постер New Orlean vs Golden Star</h2>
+                  <p class="projects-list-item-descr">Дизайн</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/seafood-restaurant.jpg"
-                  alt="Логотип приложения для ресторана Seafood"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Ресторан Seafood</h2>
-                  <p class="item-descr">Приложение</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/seafood-restaurant.jpg"
+                    alt="Логотип приложения для ресторана Seafood"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Ресторан Seafood</h2>
+                  <p class="projects-list-item-descr">Приложение</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/headphone-prime.jpg"
-                  alt="Маркетинговые услуги по продаже техники Prime"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Проект Prime</h2>
-                  <p class="item-descr">Маркетинг</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/headphone-prime.jpg"
+                    alt="Маркетинговые услуги по продаже техники Prime"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Проект Prime</h2>
+                  <p class="projects-list-item-descr">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/boxes.jpg"
-                  alt="Логотип с коробками для проекта Boxes"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Проект Boxes</h2>
-                  <p class="item-descr">Приложение</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/boxes.jpg"
+                    alt="Логотип с коробками для проекта Boxes"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Проект Boxes</h2>
+                  <p class="projects-list-item-descr">Приложение</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/inspiration.jpg"
-                  alt="Веб-сайт на тему: Вдохновение не имеет границ"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Inspiration has no Borders</h2>
-                  <p class="item-descr">Веб-сайт</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/inspiration.jpg"
+                    alt="Веб-сайт на тему: Вдохновение не имеет границ"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Inspiration has no Borders</h2>
+                  <p class="projects-list-item-descr">Веб-сайт</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/limited-edition.jpg"
-                  alt="Книга издания Limited Edition"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Издание Limited Edition</h2>
-                  <p class="item-descr">Дизайн</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/limited-edition.jpg"
+                    alt="Книга издания Limited Edition"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Издание Limited Edition</h2>
+                  <p class="projects-list-item-descr">Дизайн</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/lab-project.jpg"
-                  alt="Бирка с логотипом LAB проекта"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Проект LAB</h2>
-                  <p class="item-descr">Маркетинг</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/lab-project.jpg"
+                    alt="Бирка с логотипом LAB проекта"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Проект LAB</h2>
+                  <p class="projects-list-item-descr">Маркетинг</p>
                 </div>
               </a>
             </li>
             <li class="projects-list-item">
               <a href="#">
-                <img
-                  class="item-img"
-                  src="./images/growing-business.jpg"
-                  alt="Приложение для проекта Growing Business"
-                  width="370"
-                />
-                <div class="item-text">
-                  <h2 class="item-title">Growing Business</h2>
-                  <p class="item-descr">Приложение</p>
+                <div class="projects-list-item-thumb">
+                  <img
+                    class="projects-list-item-img"
+                    src="./images/growing-business.jpg"
+                    alt="Приложение для проекта Growing Business"
+                    width="370"
+                  />
+                  <div class="projects-list-item-overlay">
+                    <p>
+                      Ресурс предлагает комплексные предложения с разным уровнем функционала и
+                      сервисов. Все это позволит посетителю получить исчерпывающие сведения о
+                      компании или частном лице.
+                    </p>
+                  </div>
+                </div>
+                <div class="projects-list-item-text">
+                  <h2 class="projects-list-item-title">Growing Business</h2>
+                  <p class="projects-list-item-descr">Приложение</p>
                 </div>
               </a>
             </li>
@@ -221,7 +300,7 @@
             <ul class="address-info-list">
               <li class="address-info-list-item">
                 <a
-                  class="address color-accent"
+                  class="address link"
                   href="https://goo.gl/maps/5Cw5wHXfv2F4CqR76"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -229,10 +308,10 @@
                 >
               </li>
               <li class="address-info-list-item">
-                <a class="color-accent" href="mailto:info@devstudio.com">info@devstudio.com</a>
+                <a class="link" href="mailto:info@devstudio.com">info@devstudio.com</a>
               </li>
               <li class="address-info-list-item">
-                <a class="color-accent" href="tel:+380961111111">+38 096 111 11 11</a>
+                <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
               </li>
             </ul>
           </address>
